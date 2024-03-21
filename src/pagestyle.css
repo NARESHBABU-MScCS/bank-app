@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cinzel&family=Sacramento&family=Saira+Condensed:wght@100&display=swap");
+
+.bank-containers {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.096),
+    rgba(0, 4, 255, 0.452)
+  );
+  display: flex;
+  justify-content: center;
+  box-shadow: rgb(0, 35, 133) 2px 2px 8px 2px;
+  color: aliceblue;
+  font-size: 16px;
+
+  width: 100%;
+  font-family: "Bree Serif", serif;
+
+  align-items: center;
+}
+
+.stars::before {
+  content: "Rate Us ";
+  color: snow;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+  border: none;
+  width: 400px;
+  align-items: center;
+  box-shadow: rgb(0, 35, 133) 2px 2px 8px 2px;
+}
+html {
+  background-color: transparent;
+}
+.bank-containers ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+}
+
+.bank-containers li {
+  margin-right: 110px;
+  text-align: center;
+}
+
+.bank-containers a {
+  text-align: center;
+  color: snow;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 3px;
+
+  display: block;
+}
+
+.bank-containers a:hover {
+  background: #dcf8ff;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #00f2ff,
+    0 0 100px #ffffff;
+}
